@@ -46,6 +46,11 @@ h1{
     align-items: center;
 }
 
+.menuLateralLink:hover{
+    color: black;
+    font-weight: bold;
+}
+
 .imagemPrincipal {
     height: 100vh;
     background-image: url(../img/laranja.png);
@@ -175,16 +180,15 @@ h1{
     }
 
     .thumbnailDesktop{
-        position: absolute;
-        top: 750px;
-        left: 135px;
+       padding-left: 130px;
+       padding-bottom: 80px;
     }
 
     .backgroundFooter{
         position: absolute;
-        top: 1720px;
+        top: 1825px;
         left: 110px;
-        background-color: #FFFFFF;
+        background-color: #e9e1e1;
     }
 
 
@@ -193,6 +197,7 @@ h1{
         font-weight: bold;
         color: black;
         font-size: 20px;
+        top: 100px;
         left: 490px;
         
     }
@@ -202,7 +207,7 @@ h1{
         color: black;
         opacity: 0.8;
         width: 550px;
-        padding-top: 20px;
+        padding-top: 120px;
         padding-left: 660px;
         
     }
@@ -253,6 +258,11 @@ h1{
         color: black;
         opacity: 0.8;
         padding-left: 660px;
+    }
+
+    footer{
+        background-color: #e9e1e1;
+        height: 100px;
     }
 
 
